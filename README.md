@@ -92,6 +92,43 @@ Here's a preview of the Solarized Osaka theme in action:
 
 ---
 
+## Visual Studio 2022 Theme Installation
+
+The Solarized Osaka theme is also available for Visual Studio 2022. To install:
+
+### Manual Installation
+1. Close all instances of Visual Studio 2022
+2. Navigate to your Visual Studio 2022 extensions folder:
+   - Typical path: `%UserProfile%\Documents\Visual Studio 2022\Extensions`
+   - Or: `%ProgramFiles(x86)%\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions`
+3. Create a new folder named "SolarizedOsaka"
+4. Copy the following files from the `vs2022` folder to your newly created folder:
+   - `SolarizedOsaka.pkgdef`
+   - `SolarizedOsaka.vstheme`
+5. Launch Visual Studio 2022
+6. Go to `Tools -> Theme` and select "Solarized Osaka"
+
+### VSIX Package Installation (Coming Soon)
+A VSIX package installer will be available in a future release, which will automate the installation process.
+
+### Theme Preview
+The Visual Studio version of Solarized Osaka includes:
+- Dark theme optimized for long coding sessions
+- Custom syntax highlighting with carefully selected colors
+- Consistent styling across the Visual Studio IDE
+- Enhanced readability for comments, strings, and keywords
+- Support for both light and dark Visual Studio shells
+
+### Troubleshooting
+If the theme doesn't appear in the Themes menu:
+1. Verify the files are in the correct location
+2. Try running Visual Studio as administrator once
+3. Clear the Visual Studio component cache:
+   - Delete the contents of `%LocalAppData%\Microsoft\VisualStudio\17.0_<instance-id>\ComponentModelCache`
+4. Restart Visual Studio
+
+---
+
 ## Customization
 
 You can customize the theme by adding the following to your `settings.json` (access through `Ctrl+,` then click the `{}` icon):
